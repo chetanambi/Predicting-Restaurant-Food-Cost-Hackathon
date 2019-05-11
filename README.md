@@ -23,3 +23,10 @@ RATING: The average rating of the restaurant by customers.
 VOTES: The overall votes received by the restaurant.
 
 COST: The average cost of a two-person meal.
+
+# Evalution:
+Submissions are evaluated on Root-Mean-Squared-Error (RMSE) between the predicted value and observed score values. The final score calculation is done in the following way: 
+
+Submissions are evaluated on Root-Mean-Squared-Log-Error (RMSLE) error = RMSLE (error)
+
+Score = 1 – error
